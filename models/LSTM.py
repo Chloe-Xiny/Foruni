@@ -32,7 +32,7 @@ class SimpleLSTMClassifier(nn.Module):
 # Example usage
 def main():
     # Hyperparameters
-    input_size = 10  # Number of features per time step
+    input_size = 448  # Number of features per time step
     hidden_size = 64  # Number of LSTM units
     num_layers = 2  # Number of LSTM layers
     num_classes = 3  # Number of output classes
