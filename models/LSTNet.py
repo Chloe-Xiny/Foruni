@@ -45,12 +45,12 @@ class LSTNetClassifier(nn.Module):
 # Example usage
 if __name__ == "__main__":
     # Define model parameters
-    input_dim = 800  # Number of features
+    input_dim = 448  # Number of features
     hidden_cnn = 16  # Number of output channels for CNN
     kernel_size = 3  # Kernel size for CNN
     hidden_rnn = 32  # Number of hidden units for GRU
     output_dim = 2  # Number of classes for classification
-    window_size = 12  # Length of the input sequence (time window)
+    window_size = 800  # Length of the input sequence (time window)
     dropout = 0.3  # Dropout rate
 
     # Instantiate the model
