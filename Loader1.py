@@ -5,7 +5,7 @@ import numpy as np
 import argparse
 
 class MultiModalDataset(Dataset):
-    def __init__(self, root_dir, selected_views, dataset_name):
+    def __init__(self, \data\Dataset, selected_views, dataset_name):
         """
         Args:
             root_dir (string): Directory with all the videos and extracted tensors.
